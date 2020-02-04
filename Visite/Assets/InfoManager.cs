@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class InfoManager : MonoBehaviour
 {
     public List<Info> infos;
-    public Text text;
-    public Image image;
 
     public GameObject InfoPanel;
 
