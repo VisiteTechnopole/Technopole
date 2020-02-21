@@ -53,7 +53,7 @@ public class MWZoom : MonoBehaviour
             timepuch += Time.deltaTime;
             //send affiche event
 
-            Debug.Log(timepuch);
+            //Debug.Log(timepuch);
         }
         if (!Input.GetMouseButton(0)) return;
 

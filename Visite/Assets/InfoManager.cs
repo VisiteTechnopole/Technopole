@@ -5,9 +5,12 @@ using UnityEngine.Assertions;
 using UnityEngine.UI;
 public class InfoManager : MonoBehaviour
 {
+    
     public List<Info> infos;
 
     public GameObject InfoPanel;
+    public Text text;
+    public Image image;
 
     // Start is called before the first frame update
     void Start()
