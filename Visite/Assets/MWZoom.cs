@@ -13,6 +13,7 @@ public class MWZoom : MonoBehaviour
     float scrollSpeed = 50f;
     float timepuch = 0;
     bool startDrag;
+
     public delegate void Affiche();
     public static event Affiche affiche;
 

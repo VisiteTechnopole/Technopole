@@ -4,6 +4,7 @@ using System.Collections;
 public class MvtPlayer : MonoBehaviour
 {
     Animator anim;
+    double moveSpeed = 0.2f;
     private void Start()
     {
         anim = GetComponent<Animator>();   
@@ -20,11 +21,11 @@ public class MvtPlayer : MonoBehaviour
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Debug.Log(ray);
-         
+           
                 if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-                     {   anim.SetFloat("speed", 2);
-         
-                        transform.position = hit.point ;
+                     {
+                         anim.SetFloat("speed", 2);
+                         transform.position = hit.point;
                          Debug.Log(hit.point);
 
                      }
