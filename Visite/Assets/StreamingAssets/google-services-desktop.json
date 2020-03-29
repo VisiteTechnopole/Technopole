@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393557634605",
+    "firebase_url": "https://visitetechno.firebaseio.com",
+    "project_id": "visitetechno",
+    "storage_bucket": "visitetechno.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393557634605:android:f16558b61aafbc0afbd2a4",
+        "android_client_info": {
+          "package_name": "com.google.firebase.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393557634605-c1s4dk4dderq1sok0tqcunhjkee34s1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy_ZfTEZw3Q7N6Dv94mAWjpORSE4xRouA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393557634605-c1s4dk4dderq1sok0tqcunhjkee34s1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
