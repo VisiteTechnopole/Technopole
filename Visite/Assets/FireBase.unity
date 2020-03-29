@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1136,7 +1136,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 976259026}
-        m_MethodName: Onsubmit
+        m_MethodName: SaveData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1365,6 +1365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5947c0f857ffeb74d871995c5d7f3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputField: {fileID: 1467269401}
+  text: {fileID: 1122983152}
 --- !u!4 &976259027
 Transform:
   m_ObjectHideFlags: 0
