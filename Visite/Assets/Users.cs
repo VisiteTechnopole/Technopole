@@ -9,14 +9,17 @@ using UnityEngine.UI;
 public class Users : MonoBehaviour
 {
     DatabaseReference reference;
+
     public InputField inputField;
-   
+    public InputField telephone;
+    public InputField profession;
+    public InputField WorkLocation;
+    public InputField Mp;
+    public InputField verifMp;
 
-  
-
-     void Start ()
+    void Start ()
     {
-        Debug.Log("bb");
+       
         // Set up the Editor before calling into the realtime database.
         FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://visitetechno.firebaseio.com/");
 
@@ -29,10 +32,12 @@ public class Users : MonoBehaviour
     public void SaveData()
     {
 
-        if (!inputField.text.Equals(""))
+        if (!inputField.text.Equals("") && (Mp.text.ToString()==verifMp.text.ToString()))
         {
-            Debug.Log(inputField.text.ToString());
-            reference.Child("users1").Child("username").Child("Email").SetValueAsync(inputField.text.ToString());
+           
+            reference.Child("users1").Child(telephone.text.ToString()).Child("Email").SetValueAsync(inputField.text.ToString());
+            reference.Child("users1").Child(telephone.text.ToString()).Child("Profession").SetValueAsync(profession.text.ToString());
+            reference.Child("users1").Child(telephone.text.ToString()).Child("Work Location").SetValueAsync(WorkLocation.text.ToString());
         }     
     }
     /*public void LoadData()

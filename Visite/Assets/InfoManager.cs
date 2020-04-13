@@ -10,6 +10,7 @@ public class InfoManager : MonoBehaviour
 
     public GameObject InfoPanel;
     public Text text;
+    public Text text1;
     public Image image;
 
     // Start is called before the first frame update
@@ -60,6 +61,7 @@ public class InfoManager : MonoBehaviour
     }
     public void SetupItem(Info info)
     {
+        text1.text = info.Desc1;
         text.text = info.Desc;
         image.sprite = info.Icon;
         InfoPanel.SetActive(true);

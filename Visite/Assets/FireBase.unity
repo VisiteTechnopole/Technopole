@@ -1365,8 +1365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5947c0f857ffeb74d871995c5d7f3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputField: {fileID: 1467269401}
-  text: {fileID: 1122983152}
+  inputField: {fileID: 2020156694}
+  telephone: {fileID: 1046088888}
 --- !u!4 &976259027
 Transform:
   m_ObjectHideFlags: 0
