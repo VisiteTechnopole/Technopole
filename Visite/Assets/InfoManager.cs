@@ -11,8 +11,13 @@ public class InfoManager : MonoBehaviour
     public GameObject InfoPanel;
     public Text text;
     public Text text1;
+    public Text Nom;
+    public Text prenom;
+    public Text grade;
+    public Text statut;
+    public Text universite;
     public Image image;
-
+    public Image image2;
     // Start is called before the first frame update
     void Start()
     {
@@ -61,9 +66,14 @@ public class InfoManager : MonoBehaviour
     }
     public void SetupItem(Info info)
     {
-        text1.text = info.Desc1;
+        text1.text = info.Titre;
         text.text = info.Desc;
         image.sprite = info.Icon;
+        Nom.text = info.Nom;
+        prenom.text = info.Prenom;
+        statut.text = info.statut;
+        grade.text = info.grade;
+        image2.sprite = info.image;
         InfoPanel.SetActive(true);
     }
 

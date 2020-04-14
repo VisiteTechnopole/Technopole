@@ -8,8 +8,14 @@ using UnityEngine;
     public string Name;
     public Sprite Icon;
     public string Desc;
-    public string Desc1;
+    public string Titre;
     public GameObject Model3D;
     public string tag ;
-      
-    }
+    public string Nom;
+    public string Prenom;
+    public string statut;
+    public string universite;
+    public string grade;
+    public Sprite image;
+
+}

@@ -1,0 +1,93 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.206520482)
+
+newmtl enetcom__initialShadingGroup
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom__lambert10SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom__pCube1SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom__polySurface120SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom__typeMesh2SG1SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0.3 0.3 0.3
+ke 0 0 0
+d 1
+Ns 68.96
+illum 2
+
+newmtl enetcom__typeMesh3SG1SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0.3 0.3 0.3
+ke 0 0 0
+d 1
+Ns 68.96
+illum 2
+
+newmtl enetcom_lambert4SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom_lambert6SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom_lambert7SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl enetcom_lambert8SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl lambert2SG
+kd 0.5 0.5 0.5
+ka 0 0 0
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+

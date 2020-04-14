@@ -6,6 +6,7 @@ TagManager:
   tags:
   - isims
   - street
+  - isgi
   layers:
   - Default
   - TransparentFX
