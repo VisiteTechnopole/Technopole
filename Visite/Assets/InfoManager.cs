@@ -81,4 +81,5 @@ public class InfoManager : MonoBehaviour
     {
         _object.SetActive(false);
     }
+    
 }
