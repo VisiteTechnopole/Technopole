@@ -1,0 +1,76 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "g1_lambert13SG": {
+            "shader": "Main shader"
+        },
+        "isgiii_lambert9SG": {
+            "shader": "Main shader"
+        },
+        "lambert10SG": {
+            "shader": "Main shader"
+        },
+        "lambert12SG": {
+            "shader": "Main shader"
+        },
+        "lambert14SG": {
+            "shader": "Main shader"
+        },
+        "lambert15SG": {
+            "shader": "Main shader"
+        },
+        "lambert16SG": {
+            "shader": "Main shader"
+        },
+        "lambert17SG": {
+            "shader": "Main shader"
+        },
+        "lambert18SG": {
+            "shader": "Main shader"
+        },
+        "lambert19SG": {
+            "shader": "Main shader"
+        },
+        "lambert21SG": {
+            "shader": "Main shader"
+        },
+        "lambert4SG": {
+            "shader": "Main shader"
+        },
+        "lambert5SG": {
+            "shader": "Main shader"
+        }
+    }
+}
