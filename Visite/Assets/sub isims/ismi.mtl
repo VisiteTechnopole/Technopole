@@ -1,0 +1,99 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.206520482)
+
+newmtl iismis_initialShadingGroup
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert2SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert3SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert4SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert5SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert6SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert7SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_lambert8SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_vvvv_ShaderfxGameHair1SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_vvvv_initialShadingGroup4
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl iismis_vvvv_lambert25SG
+kd 0.8 0.8 0.8
+ka 0.4 0.4 0.4
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
+newmtl lambert2SG
+kd 0.5 0.5 0.5
+ka 0 0 0
+ks 0 0 0
+ke 0 0 0
+d 1
+illum 1
+
