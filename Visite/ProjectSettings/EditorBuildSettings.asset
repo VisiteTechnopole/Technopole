@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FireBase.unity
     guid: fef826e86bcf7ec4d916fe31fe8f045a
+  - enabled: 1
+    path: Assets/option.unity
+    guid: 5ca9b04265e01e94e8aa43a54a7d7bdb
   m_configObjects: {}
