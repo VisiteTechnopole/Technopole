@@ -9,6 +9,8 @@ TagManager:
   - isgi
   - enetcom
   - menu
+  - centre
+  - technopole
   layers:
   - Default
   - TransparentFX

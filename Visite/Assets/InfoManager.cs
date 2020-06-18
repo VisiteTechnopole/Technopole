@@ -81,5 +81,8 @@ public class InfoManager : MonoBehaviour
     {
         _object.SetActive(false);
     }
-    
+    public void openPanel(GameObject _object)
+    {
+        _object.SetActive(true);
+    }
 }

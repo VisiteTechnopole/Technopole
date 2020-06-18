@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
+    path: Assets/menu.unity
+    guid: 23dfe6b5a279b884698d0efae9256d8b
+  - enabled: 1
     path: Assets/visitetechnopole.unity
     guid: 2c7c4e12d8150314a8bee28a9b82b6a7
   - enabled: 1
@@ -17,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/option.unity
     guid: 5ca9b04265e01e94e8aa43a54a7d7bdb
+  - enabled: 1
+    path: Assets/CONFIRM.unity
+    guid: 5cb16b9a6beedcf458120d426611a55c
+  - enabled: 1
+    path: Assets/12.unity
+    guid: 8e759ba60060cfe408e13b0be6e328a1
   m_configObjects: {}
